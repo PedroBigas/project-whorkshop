@@ -9,24 +9,30 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <div class="container">
+    
+        <header>
             <h1>Participe do whorkshop que vai mudar o seu negocio</h1>
-        </nav>
-        <form>
-            <p><strong>garanta o seu lugar no whorkshop do maior especialista em marketing da atualuidade</strong></p>
-            <p>Nesse evento, voce vai aprender todos os segredos que vao te fazer ser um empreendedor de sucesso sem precisar contar com a sorte</p>
-            <input type="text" name="nome">
-            <input type="email" name="email">
-            <select name="estado">
+        </header>
+        <section class="form">
+        <div class="FormCont">
+            <form>
+                    <p class="chamada"><strong>garanta o seu lugar no whorkshop do maior especialista em marketing da atualidade</strong></p>
+                    <p class="exp">Nesse evento, voce vai aprender todos os segredos que vao te fazer ser um empreendedor de sucesso sem precisar contar com a sorte</p>
+                    <input type="text" name="nome" placeholder="Nome">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <select name="estado">
 
-                <option value="SP">Sao Pulo</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="RS">Rio Grande do Sul</option>
-            </select>
-            <input type="submit" value="INSCREVA-SE">
-        </form>
+                        <option value="SP">Sao Pulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </select>
+                    <input type="submit" value="INSCREVA-SE">
+                
+            </form>
+        </div>  
+        </section>
         <footer>
         <!--<img src="./images/face.jpg" alt="Imagem do Palestrante">-->
         <section class="palestrante">
@@ -34,6 +40,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam at facilis non temporibus, eos, beatae fugit eveniet fuga ipsam tenetur quia harum perspiciatis obcaecati, id iste natus et rem modi?</p>
         </section>
         </footer>
-    </header>
+   
+</div>
 </body>
 </html>

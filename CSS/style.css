@@ -29,20 +29,43 @@ h1{
 form{
     background-color: #fcfcfccb;
     float: right;
-    width: 30%;
+    width: 25%;
     height: 400px;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
+    border-radius: 10px;
 }
 .chamada{
     text-transform: uppercase; 
     text-align: initial;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 16px;
 }
 .exp{
     text-align: initial;
+    margin-bottom: 20px;
+}
+input, select{
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    margin-top: 10px;
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+input[type="submit"]:hover{
+    background-color: #2b8d94;
+}rgb(64, 183, 192)
+.btn{
+
 }
 footer{
     color: white;

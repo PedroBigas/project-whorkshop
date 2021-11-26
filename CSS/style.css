@@ -21,7 +21,7 @@ h1{
     text-transform: uppercase;
 }
 .form{
-    padding: 20x;
+    padding: 20px;
     background-image: url("../images/people.jpg");
     background-size: cover;
     overflow: hidden;
@@ -31,9 +31,6 @@ form{
     float: right;
     width: 25%;
     height: 400px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -63,9 +60,14 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background-color: #2b8d94;
-}rgb(64, 183, 192)
-.btn{
-
+}
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
 }
 footer{
     color: white;

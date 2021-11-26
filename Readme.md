@@ -6,3 +6,9 @@ A coleta dos e-mails foi feita pelo servico Mailchimp de forma gratuita de integ
 
 ## Inscricao feita!
 <img src="./inscricao_feita.png">
+
+## E-mail salvo!
+<img src="./contatos_salvos.png">
+
+## Recebimento do e-mail!
+<img src="./email_recebido.png">
